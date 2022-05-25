@@ -1,0 +1,93 @@
+body {
+    background: rgb(151,178,247);
+background: linear-gradient(90deg, rgba(151,178,247,1) 0%, rgba(216,191,249,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 350px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(147,86,220);
+    background: linear-gradient(0deg, rgba(147,86,220,1) 0%, rgba(255,121,218,1) 100%);
+    border: 10px solid white;
+    box-shadow: 10px 10px 10px rgb(147,86,220);
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: rgb(147,86,220);
+}
+
+h3 {
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: none;
+    padding: 10px;
+}
+
+button {
+    width: 300px;
+    height: 70px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+    border: 5px solid white;
+    box-shadow: 5px 5px 5px rgb(162, 156, 168);
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition-duration: 500ms;
+    box-shadow: 10px 10px 15px rgb(162, 156, 168);
+}
+
+button:active {
+    transform: scale(1.1);
+    transition-duration: 500ms;
+    box-shadow: 10px 10px 15px rgb(162, 156, 168);
+}
+
+#btn1 {
+    background-color: rgba(147,86,220,1);
+}
+
+#btn2 {
+    background-color: rgba(255,121,218,1);
+}
+
+#btn3 {
+    background-color: #71e9b1;
+}
+
+footer {
+    background-color: rgb(118, 235, 148);
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(118, 235, 148);
+    font-weight: bold;
+}
+
+span {
+    background-color: white;
+    padding: 5px;
+}
