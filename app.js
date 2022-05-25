@@ -33,5 +33,5 @@ function save() {
 function refresh() {
     saveSentence.textContent = "";
     count = "";
-    saveSentence.style.backgroundColor = "none"
+    saveSentence.style.backgroundColor = "#80f3bd00";
 }
